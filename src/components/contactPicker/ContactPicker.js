@@ -9,7 +9,7 @@ export const ContactPicker = ({ contacts, onChange }) => {
       {contacts.map((contact) => {
         return (
           <option key={contact} value={contact}>
-            {contact.name}
+            {contact}
           </option>
         );
       })}
